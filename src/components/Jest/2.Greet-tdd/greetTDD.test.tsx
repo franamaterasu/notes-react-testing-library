@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { GreetTDD } from "./";
+import { GreetTDD } from ".";
 
 test("Greet render correctly with TDD", () => {
   render(<GreetTDD />);
