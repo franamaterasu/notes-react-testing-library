@@ -7,11 +7,15 @@ const Form = () => {
       <form>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" />
+          <input type="text" id="name" placeholder="Insert your name..." />
         </div>
         <div>
           <label htmlFor="bio">Bio</label>
-          <textarea id="bio" name="bio" />
+          <textarea
+            id="bio"
+            name="bio"
+            placeholder="Insert a short resume of your bio..."
+          />
         </div>
         <div>
           <label htmlFor="job-location">Job location</label>
