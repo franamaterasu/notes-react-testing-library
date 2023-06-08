@@ -14,7 +14,7 @@ const Form = () => {
           Remote Job Platform
         </a>
       </p>
-      <form>
+      <form data-testid="form">
         <div>
           <label htmlFor="name">Name</label>
           <input
