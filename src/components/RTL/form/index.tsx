@@ -8,7 +8,13 @@ const Form = () => {
       <form>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" placeholder="Insert your name..." />
+          <input
+            type="text"
+            id="name"
+            placeholder="Insert your name..."
+            value="Jane Doe"
+            onChange={() => {}}
+          />
         </div>
         <div>
           <label htmlFor="bio">Bio</label>
@@ -16,6 +22,7 @@ const Form = () => {
             id="bio"
             name="bio"
             placeholder="Insert a short resume of your bio..."
+            value="I'm baby man braid vaporware DIY tattooed stumptown. Enamel pin venmo cold-pressed jawn kinfolk plaid asymmetrical skateboard quinoa semiotics..."
           />
         </div>
         <div>
