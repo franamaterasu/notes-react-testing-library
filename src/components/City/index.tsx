@@ -1,6 +1,4 @@
-type CityProps = {
-  name: string;
-};
+import { CityProps } from "./city.types";
 
 const City = (props: CityProps) => {
   const { name } = props;

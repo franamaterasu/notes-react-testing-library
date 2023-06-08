@@ -1,6 +1,4 @@
-type GreetPersonProps = {
-  name?: string;
-};
+import { GreetPersonProps } from "./greetPerson.types";
 
 const GreetPerson = (props: GreetPersonProps) => {
   const { name } = props;
