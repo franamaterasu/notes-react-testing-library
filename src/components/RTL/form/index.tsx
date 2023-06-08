@@ -6,6 +6,14 @@ const Form = () => {
       <p>All fields are mandatory</p>
       <hr />
       <img src="https://picsum.photos/400/300" alt="Form Heading" />
+      <p>
+        <a
+          href="https://jobgether.com/"
+          title="Remote job platform"
+          target="_black">
+          Remote Job Platform
+        </a>
+      </p>
       <form>
         <div>
           <label htmlFor="name">Name</label>
