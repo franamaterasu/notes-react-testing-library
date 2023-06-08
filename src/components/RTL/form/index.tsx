@@ -5,6 +5,7 @@ const Form = () => {
       <h2>Section 1</h2>
       <p>All fields are mandatory</p>
       <hr />
+      <img src="https://picsum.photos/400/300" alt="Form Heading" />
       <form>
         <div>
           <label htmlFor="name">Name</label>
