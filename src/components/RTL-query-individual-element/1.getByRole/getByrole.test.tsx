@@ -36,7 +36,9 @@ describe("<Form />", () => {
     const textAreaElement = screen.getByRole("textbox", {
       name: "Bio",
     });
-    const selectElement = screen.getByRole("combobox");
+    const selectElement = screen.getByRole("option", {
+      name: "Select a country",
+    });
     const inputTermsElement = screen.getByRole("checkbox");
     const submitButtonElement = screen.getByRole("button");
 
